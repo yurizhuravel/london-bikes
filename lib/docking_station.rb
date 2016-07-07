@@ -1,7 +1,7 @@
 require_relative 'bike'
 
 class DockingStation
-  attr_reader :bike
+  attr_reader :bike, :bikes
 
   def initialize
     @bikes = []
